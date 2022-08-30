@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="fa">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./normalize.css" />
+
+    <link rel="stylesheet" href="./style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="form-container">
+      <form>
+        <label for="firstname">firstname</label>
+        <input type="text" id="firstname" />
+        <label for="lastname">lastname</label>
+        <input type="text" id="lastname" />
+        <label for="email">email</label>
+        <input type="text" id="email" />
+        <label for="srcImg">img URL</label>
+        <input type="text" id="srcImg" />
+        <input type="submit" />
+      </form>
+    </div>
+    <div class="item-counter_container">
+      <p>item per page :</p>
+      <select>
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+      </select>
+    </div>
+    <div class="container"></div>
+    <ul class="pagination-container"></ul>
+  </body>
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+
+  <script src="./script.js"></script>
+</html>
